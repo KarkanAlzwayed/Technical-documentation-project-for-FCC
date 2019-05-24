@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Paytone+One');
+
+#navbar {
+  position: fixed;
+  top: 10px;
+  left: 8px;
+  width: 200px;
+  border-right: 2px solid;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+#navbar li {
+  color: black;
+  list-style: none;
+  height: 30px;
+  border: 1px solid;
+  border-left: none;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  width: 198px;
+  padding: 10px 0px 0px 10px;
+  position:relative;
+  top: 50px;
+ left:-48px;
+}
+.nav-link {
+  text-decoration: none;
+}
+
+#nav-header {
+  position: relative;
+  top: 30px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#main-doc {
+  margin: 50px 0 50px 220px;
+}
+
+.main-section {
+  margin: 50px;
+  font-family: 'EB Garamond', serif;
+}
+
+
+code {
+  display:block;
+    text-align: left;
+  white-space: pre;
+  position: relative;
+    line-height: 2;
+    background-color:#d3d3d3;
+  padding:15px;
+  margin:10px;
+    border-radius:10px;
+}
+
+#introduction_header {
+  color: white;
+  background: #228B22	;
+  font-family: 'Paytone One', sans-serif;
+  font-size: 25px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+#history_header {
+  color: white;
+  background: #228B22	;
+  font-family: 'Paytone One', sans-serif;
+  font-size: 25px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+#progress_header {
+  color: white;
+  background: #228B22	;
+  font-family: 'Paytone One', sans-serif;
+  font-size: 25px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+#applications_header {
+  color: white;
+  background: #228B22	;
+  font-family: 'Paytone One', sans-serif;
+  font-size: 25px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+#relations_header {
+  color: white;
+  background: #228B22	;
+  font-family: 'Paytone One', sans-serif;
+  font-size: 25px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+#drawbacks_header {
+  color: white;
+  background: #228B22	;
+  font-family: 'Paytone One', sans-serif;
+  font-size: 25px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+#wins_header {
+  color: white;
+  background: #228B22	;
+  font-family: 'Paytone One', sans-serif;
+  font-size: 25px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+#losses_header {
+  color: white;
+  background: #228B22	;
+  font-family: 'Paytone One', sans-serif;
+  font-size: 25px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+#back_to_business_header {
+  color: white;
+  background: #228B22	;
+  font-family: 'Paytone One', sans-serif;
+  font-size: 25px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+#summary_header {
+  color: white;
+  background: #228B22	;
+  font-family: 'Paytone One', sans-serif;
+  font-size: 25px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+  #main-doc {
+    display: block;
+    background-color: #FFB6C1;
+  }
+  
+  code {
+   font-size: 10px;
+    display: block;
+  }
+}
+footer{
+  height: 100px;
+    margin: auto;
+    width: 400px;
+}
+@media only screen and (max-width: 400px) {
+  #main-doc {
+    display: block;
+    background-color: #FFB6C1;
+  }
+  
+  code {
+   font-size: 10px;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  #main-doc {
+    display: block;
+    background-color: #FFB6C1;
+  }
+  
+  code {
+   font-size: 10px;
+    display: block;
+  }
+}
+
+button {
+    background-color: rgb(215, 218, 211);
+    color: black;
+    border-radius: 5px;
+    width: 150px;
+}
+
+button:hover {
+  background-color: #228B22;
+  color: white;  
+  cursor: pointer;
+}
+
